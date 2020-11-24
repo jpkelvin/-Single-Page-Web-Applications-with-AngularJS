@@ -1,0 +1,61 @@
+ body{
+    background-color:#0b1b52;
+    border: 10px dotted white;
+    border-radius: 3px;
+  }
+.emptyMessage {
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list{
+  border: 5px solid #5ff939;
+  border-radius: 5px;
+}
+h1{
+  font-size: 40px;
+  color:cyan;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid pink;
+  border-radius: 5px;
+}
+h2{
+  font-size: 40px;
+  display: flex;
+  color:white;
+  border: 5px dashed #817169;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+li {
+    margin-bottom: 17px;
+    font-size: 25px;
+    color:#fbf625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li > button {
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+  font-size: 18px;
+  background-color:white;
+  font-style: italic;
+  font-weight: bold;
+  color:blue;
+}
+button > span {
+    color: green;
+}
