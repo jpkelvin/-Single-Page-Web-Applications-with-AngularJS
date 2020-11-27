@@ -1,0 +1,63 @@
+body{
+  background-color:#F30855;
+  border: 3px dashed white;
+  border-radius: 3px;
+}
+h1 {
+    margin-bottom: 30px;
+    background-color:#0b1b52;
+    border: 5px dotted white;
+    border-radius: 3px;
+    color:white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 5.5rem;
+    float: left;
+    border: 2.5px dashed blue;
+    border-radius: 3px;
+
+}
+
+.narrow-button {
+    float: left;
+    margin-left: 20px;
+      margin-top: 5px;
+}
+.jumbotron{
+  border: 5px solid #5ff939;
+  border-radius: 5px;
+  background-color: cyan;
+}
+.jumbotron h2,h3,p{
+  background-color: cyan;
+  color: blue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+button{
+  width: 200px;
+  height: 5rem;
+  font-size: 20px;
+
+}
+input[type="button"] {
+    width: 200px;
+    height: 5rem;
+    float: left;
+    background-color: blue;
+    font-size: 20px;
+    border: 2.5px dashed blue;
+    border-radius: 3px;
+    margin-left: 100px;
+}
+.search {
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
